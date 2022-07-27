@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web whatsapp</title>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Estilo/style.css">
+</head>
+<body>
+ 
+    <div class="container-fluid"> 
+
+        <div class="row">
+            <div class="col-md-4 px-0" id="panel-left">
+
+                <header class="d-flex">
+                    <div class="imges"><ion-icon name="person-outline"></ion-icon></div>
+                </header>
+
+                <div id="search"></div>
+
+                <div class="list-group">
+
+                    <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">
+                        <div class="img"><ion-icon name="person-outline"></ion-icon></div>
+
+                        <div class="d-flex flex-column flex-fill">
+                            <h6>Johny</h6>
+                            <small >Johny: você está cehgando?</small>
+                        </div>
+
+                        <div class="d-flex flex-column align-items-center">
+                            <span class="timeago">13:00</span>
+                            <span class="badge badge-success badge-pill">2</span>
+                        </div>
+                    </a>
+
+                    <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">
+                        <div class="img"><ion-icon name="person-outline"></ion-icon></div>
+
+                        <div class="d-flex flex-column flex-fill">
+                            <h6>Erika</h6>
+                            <small >Erika: Já estou chegando!</small>
+                        </div>
+
+                        <div class="d-flex flex-column align-items-center">
+                            <span class="timeago">Ontem</span>
+                            <span class="badge badge-success badge-pill"></span>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="col-md-8 px-0 d-flex flex-column ">
+
+                <header class="d-flex align-items-center">
+                    <div class="images"><ion-icon name="person-outline"></ion-icon></div>
+                    <div class="d-flex flex-column flex-fill">
+                        <h6>Johny</h6>
+                        <small class="timeago">Visto por útimo: segunda-feira às 12:00</small>
+                    </div>
+                </header>
+
+                <main></main>
+
+                <footer></footer>
+
+            </div>
+        </div>
+    </div>
+
+  
+
+
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
