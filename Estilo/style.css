@@ -1,3 +1,5 @@
+*{font-family: Arial, Helvetica, sans-serif;}
+
 header, footer {
     background-color: #eee;
     padding: 5px;
@@ -9,7 +11,54 @@ header .images, .list-group {
     margin-right: 10px;
 }
 
-header .images{
+.img{
+    background-image: url(../img/violino05.jpg);
+    background-size: cover;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+
+}
+
+.imges{
+    background-image: url(../img/violino24.jpg);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+}
+
+.images-header{
+    background-image: url(../img/do-utilizador.png);
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    
+}
+
+.maria{
+    background-image: url(../img/70664179_1553291444826218_3681785212783538333_n.jpg);
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    
+}
+
+.img-erika{
+    background-image: url(../img/185324669_1013497929258047_1342348068745736494_n.jpg);
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    
+}
+
+
+header .images a{
     margin-left: 16px;
 }
 
@@ -38,8 +87,28 @@ h6{
 #search{
     background-color: #f8f8f8;
     min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+#search input{
+    
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f0f0f0;
+}
+
+#small{
+    margin-left: 10px;
+    padding: 10px;
+    border: none;
+}
 #panel-left{
     border-right: #dedede 1px solid;
     color: #dedede;
