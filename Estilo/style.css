@@ -11,7 +11,7 @@ header .images, .list-group {
     margin-right: 10px;
 }
 
-.img{
+.img-johny{
     background-image: url(../img/violino05.jpg);
     background-size: cover;
     height: 55px;
@@ -50,6 +50,62 @@ header .images, .list-group {
 
 .img-erika{
     background-image: url(../img/185324669_1013497929258047_1342348068745736494_n.jpg);
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    
+}
+.images-joao{
+    background-image: url(../img/violino07.jpg);
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    
+}
+.images-edivaldo{
+    background-image: url(../img/violino08.jpg);
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    
+}
+.images-mae{
+    background-image: url(../img/violino09.jpg);
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    
+}
+.images-irma{
+    background-image: url(../img/violino10.jpg);
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    
+}
+.images-grupo{
+    background-image: url(../img/violino19.jpg);
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    
+}
+.images-grupo01{
+    background-image: url(../img/violino18.jpg);
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    
+}
+.images-grupoEstacionamento{
+    background-image: url(../img/violino17.jpg);
     background-size: cover;
     height: 60px;
     width: 60px;
@@ -119,9 +175,12 @@ h6{
 }
 
 .list-group{
+    overflow-y: scroll;
     border-left: none;
     border-right: none;
     border-color: #f8f8f8;
+    height: 85vh;
+  
 }
 
 .list-group-item:first-child{
